@@ -1,6 +1,6 @@
 const { RESTDataSource } = require("apollo-datasource-rest");
 
-class CommentAPI {
+class CommentAPI extends RESTDataSource {
   constructor() {
     super()
   }
